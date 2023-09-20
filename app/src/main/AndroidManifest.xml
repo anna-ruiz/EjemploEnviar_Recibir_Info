@@ -13,6 +13,9 @@
         android:theme="@style/Theme.EjemploEnviar_Recibir_Info"
         tools:targetApi="31">
         <activity
+            android:name=".DesencriptarActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
